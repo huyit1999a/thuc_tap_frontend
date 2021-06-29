@@ -1,0 +1,355 @@
+/*Tablet*/
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none;
+  }
+
+  header {
+    height: 61rem;
+  }
+
+  .home {
+    top: 0;
+    border-bottom: 1px solid rgba(210, 221, 232, 0.5);
+    border-radius: 0px;
+  }
+  .home-title h1 {
+    font-size: 4rem;
+    margin-left: 4rem;
+  }
+
+  .home-title h3 {
+    font-size: 2rem;
+    position: relative;
+    margin-top: 16rem;
+    margin-left: 16.7rem;
+  }
+
+  .home-icon {
+    margin-left: 3.6rem;
+    margin-right: 9.6rem;
+  }
+
+  .home-navbar {
+    margin-top: 0rem;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 3rem;
+    background-color: white;
+    z-index: 99;
+  }
+
+  .navbar-link {
+    display: block;
+    background-color: white;
+    position: absolute;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80vh;
+    display: none;
+  }
+
+  .navbar-link a {
+    display: block;
+    font-size: 3.4rem;
+    margin-bottom: 5rem;
+    margin-left: 6.4rem;
+    text-shadow: 0px 8px 12px #d6e1eb;
+  }
+
+  .menu-mobile {
+    display: inline-block;
+    margin-right: 2.4rem;
+    margin-left: 4rem;
+  }
+
+  .home-grid-layout {
+    top: 15rem;
+    grid-template-columns: 15.44rem 15.44rem 8rem 12.44rem 13.55rem;
+    grid-template-rows: 6rem 4.8rem 7rem 7.4rem 6.3rem 2.6rem 13.9rem;
+  }
+
+  .home-grid-item.item11 {
+    background-position: center 40%;
+  }
+
+  .home-grid-item.item9 {
+    background-position: 5% 55%;
+  }
+
+  .feedback {
+    border-top: 1px solid #d2dde8;
+  }
+
+  .feedback-text {
+    max-width: 100%;
+    margin-top: 0;
+    padding: 0 3rem;
+  }
+
+  .experienced-content {
+    padding: 14rem 3rem 0;
+  }
+
+  .experienced-text {
+    font-size: 1.4rem;
+  }
+  .experienced-title1 {
+    font-size: 3.5rem;
+    line-height: 6rem;
+  }
+  .experienced-title2 {
+    margin-top: 0;
+    font-size: 4.5rem;
+  }
+
+  .experienced-title3 {
+    font-size: 2rem;
+  }
+  footer {
+    height: auto;
+    padding-bottom: 4rem;
+  }
+  .quote {
+    display: none;
+  }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  header {
+    height: 61rem;
+  }
+  .home {
+    top: 0;
+    border-bottom: 1px solid rgba(210, 221, 232, 0.5);
+    border-radius: 0px;
+  }
+  .home-title h1 {
+    font-size: 4rem;
+    margin-left: 4rem;
+  }
+
+  .home-title h3 {
+    font-size: 2rem;
+    position: relative;
+    margin-top: 16rem;
+    margin-left: 16.7rem;
+  }
+
+  .home-icon {
+    margin-left: 3.6rem;
+    margin-right: 9.6rem;
+  }
+
+  .home-navbar {
+    margin-top: 0rem;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 3rem;
+    background-color: white;
+  }
+
+  .navbar-link {
+    display: block;
+    background-color: white;
+    position: absolute;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80vh;
+    display: none;
+  }
+
+  .navbar-link a {
+    display: block;
+    font-size: 3.4rem;
+    margin-bottom: 5rem;
+    margin-left: 6.4rem;
+    text-shadow: 0px 8px 12px #d6e1eb;
+  }
+
+  .menu-mobile {
+    display: inline-block;
+    margin-right: 2.4rem;
+    margin-left: 4rem;
+  }
+
+  .quote {
+    display: none;
+  }
+
+  .home-grid-layout {
+    position: absolute;
+    grid-template-columns: 6.8rem 5.1rem 16.1rem;
+    grid-template-rows: 10.4rem 2.5rem 7.7rem 3.2rem 12.3rem;
+    grid-template-areas:
+      "a0 a0 a10"
+      "a1 a7 a7"
+      "a1 a7 a7"
+      "a11 a11 a11"
+      "a11 a11 a11";
+    top: 39%;
+    right: 0;
+    gap: 0;
+
+    overflow-x: hidden;
+  }
+
+  .home-grid-item {
+    border-top-left-radius: 1.4rem !important;
+  }
+
+  .home-grid-item.item7,
+  .home-grid-item.item10 {
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-bottom-left-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -2.4rem;
+  }
+
+  .home-grid-item.item7 {
+    background-position: 18% 46%;
+  }
+
+  .home-grid-item.item11 {
+    background-position: center 17%;
+  }
+
+  .home-grid-item.item1,
+  .home-grid-item.item2,
+  .home-grid-item.item3,
+  .home-grid-item.item4,
+  .home-grid-item.item5,
+  .home-grid-item.item6,
+  .home-grid-item.item8,
+  .home-grid-item.item9 {
+    display: none;
+  }
+
+  .feedback {
+    padding: 0 3.5rem;
+  }
+
+  .feedback-text {
+    max-width: 100%;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    text-align: left;
+  }
+
+  .feedback-link {
+    margin-top: 5rem;
+  }
+
+  .feedback-title {
+    font-size: 2.8rem;
+    padding-top: 7.2rem;
+    text-align: left;
+  }
+
+  .award {
+    height: 60rem;
+  }
+
+  .award-grid-layout {
+    width: 28.7rem;
+    height: 21.3rem;
+    position: absolute;
+    top: 24rem;
+    left: 3.5rem;
+    transform: translateX(0);
+    grid-template-columns: 6rem 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem;
+    grid-gap: 1.5rem;
+    grid-template-areas:
+      "h1 h2 h3 h4 "
+      "h5 h7 h8 h6 "
+      "h9 h10 h10 h6 ";
+  }
+
+  .award-content {
+    text-align: left;
+    padding: 0 3.5rem;
+  }
+
+  .award-title {
+    font-size: 2.8rem;
+    font-weight: 400;
+    padding-top: 6rem;
+  }
+
+  .award-text {
+    width: 30.4rem;
+    font-size: 1.7rem;
+  }
+
+  .experienced-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .experienced {
+    height: auto;
+  }
+
+  .experienced-content {
+    padding: 5rem 3.5rem 6rem;
+  }
+
+  .experienced-text {
+    font-size: 1.7rem;
+  }
+  .experienced-title1 {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  .experienced-title2 {
+    margin-top: 0;
+    font-size: 3.5rem;
+  }
+
+  .experienced-title3 {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 6rem;
+  }
+
+  .experienced-text {
+    margin-top: 3rem;
+  }
+
+  .social-contact {
+    padding: 0 3rem;
+  }
+
+  .social-icon a {
+    margin-right: 3rem;
+  }
+
+  footer {
+    height: auto;
+    text-align: center;
+    padding-bottom: 6rem;
+  }
+}
+
+/*PC*/
+@media screen and (min-width: 1024px) {
+}
