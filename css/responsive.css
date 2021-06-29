@@ -39,6 +39,7 @@
     padding-top: 3rem;
     background-color: white;
     z-index: 99;
+    position: fixed;
   }
 
   .navbar-link {
@@ -158,6 +159,7 @@
     right: 0;
     padding-top: 3rem;
     background-color: white;
+    position: fixed;
   }
 
   .navbar-link {
