@@ -10,9 +10,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/reset.css" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="../css/responsive.css" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
 </head>
 <body>
   <div class="wrapper">
@@ -24,7 +24,7 @@
     <header>
       <div class="container">
         <div id="home-navbar" class="home-navbar">
-          <img src="../images/icon.png" alt="icon" class="home-icon" />
+          <img src="./images/icon.png" alt="icon" class="home-icon" />
           <div id="menu" class="navbar-link hide-on-mobile hide-on-tablet">
             <a href="#award">Awards</a>
             <a href="#">Shots</a>
@@ -33,10 +33,10 @@
             <a href="#contact">Find us</a>
           </div>
           <div class="home-contact">
-            <img src="../images/phone.png" alt="phone" class="contact-icon" />
+            <img src="./images/phone.png" alt="phone" class="contact-icon" />
             <span class="hide-on-mobile hide-on-tablet">+91 9949 63 6868</span>
             <div class="menu-mobile" id="menuBtn">
-              <img src="../images/hambuger.png" alt="" id="menu-toggle">
+              <img src="./images/hambuger.png" alt="" id="menu-toggle">
             </div>
           </div>
         </div>
@@ -231,12 +231,12 @@
     // menuBtn.onclick = function () {
     //   if (menu.style.display === "block") {
     //     menu.style.display = "none"
-    //     menuToggle.src = "../images/hambuger.png"
+    //     menuToggle.src = "./images/hambuger.png"
     //     menuToggle.classList.remove("close-image")
     //   }
     //   else {
     //     menu.style.display = "block"
-    //     menuToggle.src = "../images/close.png"
+    //     menuToggle.src = "./images/close.png"
     //     menuToggle.classList.add("close-image")
     //   }
     // }
@@ -244,12 +244,12 @@
     menuBtn.onclick = function () {
       if (menu.classList.contains("show-mb-tb")) {
         menu.classList.remove("show-mb-tb")
-        menuToggle.src = "../images/hambuger.png"
+        menuToggle.src = "./images/hambuger.png"
         menuToggle.classList.remove("close-image")
       }
       else {
         menu.classList.add("show-mb-tb")
-        menuToggle.src = "../images/close.png"
+        menuToggle.src = "./images/close.png"
         menuToggle.classList.add("close-image")
       }
     }
@@ -264,7 +264,7 @@
       menuItem.onclick = function () {
         if (menuToggle.classList.contains("close-image")) {
           menu.classList.remove("show-mb-tb")
-          menuToggle.src = "../images/hambuger.png"
+          menuToggle.src = "./images/hambuger.png"
           menuToggle.classList.remove("close-image")
         }
         else {
