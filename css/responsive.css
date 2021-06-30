@@ -2,6 +2,9 @@
   .home-icon {
     margin-left: 0;
   }
+  .link-border {
+    transform: translateX(0);
+  }
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1439px) {
@@ -10,6 +13,9 @@
   }
   .home-icon {
     margin-left: 3.5rem;
+  }
+  .link-border {
+    transform: translateX(0);
   }
 }
 
