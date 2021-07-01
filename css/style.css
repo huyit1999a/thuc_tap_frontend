@@ -76,6 +76,8 @@ a:focus {
   background-image: url("../images/banner.png");
   height: 58.6rem;
   max-width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .banner-title {

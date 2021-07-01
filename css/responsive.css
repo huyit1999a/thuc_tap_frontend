@@ -264,6 +264,15 @@
     padding: 1.3rem 0;
     box-shadow: 0 3px 20px #e4e8f4;
   }
+
+  .navbar-link {
+    height: 100vh;
+  }
+
+  .navbar-link a {
+    font-size: 2.4rem;
+    margin-bottom: 5%;
+  }
 }
 
 /*Mobile*/
@@ -533,6 +542,15 @@
     padding: 1.3rem 0;
     box-shadow: 0 3px 20px #e4e8f4;
   }
+
+  .navbar-link {
+    height: 100vh;
+  }
+
+  .navbar-link a {
+    font-size: 3.4rem;
+    margin-bottom: 15%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -550,7 +568,8 @@
   }
 
   .experienced-content {
-    padding-left: 2.2rem;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .feedback-title {
@@ -561,7 +580,7 @@
 
   .feedback-text {
     text-align: left;
-    padding-left: 1rem;
+    padding: 0 1rem;
   }
 
   .social-title {
@@ -601,5 +620,43 @@
 
   .footer-text {
     font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .social-icon a:first-child {
+    margin-left: 0;
+  }
+
+  .social-icon a {
+    margin-right: 1.5rem;
+  }
+  .social-title {
+    font-size: 2.2rem;
+  }
+
+  .home-title h1 {
+    font-size: 3.5rem;
+  }
+
+  .home-title h3 {
+    font-size: 2rem;
+    margin-left: 15.7rem;
+  }
+
+  .feedback-title,
+  .award-title {
+    font-size: 2rem;
+  }
+
+  .feedback-text,
+  .award-text,
+  .experienced-text {
+    font-size: 1.4rem;
+  }
+
+  .navbar-link a {
+    font-size: 3rem;
+    margin-bottom: 14%;
   }
 }
