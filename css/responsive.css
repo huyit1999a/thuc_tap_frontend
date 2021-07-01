@@ -266,11 +266,11 @@
   }
 
   .navbar-link {
-    height: 100vh;
+    height: 50vh;
   }
 
   .navbar-link a {
-    font-size: 2.4rem;
+    font-size: 3.4rem;
     margin-bottom: 5%;
   }
 }

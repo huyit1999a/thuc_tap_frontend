@@ -78,6 +78,7 @@ a:focus {
   max-width: 100%;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .banner-title {
@@ -85,6 +86,16 @@ a:focus {
   color: white;
   text-align: center;
   padding-top: 23.1rem;
+}
+
+.grid-line {
+  display: flex;
+  justify-content: space-between;
+  height: 58.6rem;
+}
+
+.line-col {
+  border-left: 3px solid rgba(112, 112, 112, 0.1);
 }
 
 .home {
