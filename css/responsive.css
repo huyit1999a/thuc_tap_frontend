@@ -575,12 +575,12 @@
   .feedback-title {
     text-align: left;
     font-size: 2.45rem;
-    padding-left: 1rem;
+    padding-left: 0;
   }
 
   .feedback-text {
     text-align: left;
-    padding: 0 1rem;
+    padding: 0;
   }
 
   .social-title {
@@ -620,6 +620,16 @@
 
   .footer-text {
     font-size: 1.6rem;
+  }
+
+  .award-content,
+  .feedback {
+    padding: 0rem;
+  }
+
+  .experienced-content {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
